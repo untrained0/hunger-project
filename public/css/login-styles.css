@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat-Thin', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* login page */
+
+#login-page {
+  text-align: center;
+  padding: 0 240px 6% 240px;
+  /* margin-bottom: 50px; */
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+  background: #14aecf;
+  margin-bottom: 30px;
+  padding: 25px 0 25px 0;
+  font-size: 55px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar {
+  font-size: 1.4rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.form-label {
+  font-size: 1.3rem;
+}
+
+.login-input {
+  padding: 0 240px 0 280px;
+  text-align: left;
+  line-height: 2;
+}
+
+.login-input button {
+  color: #98f8d5;
+  border-color: #98f8d5;
+  background-color: white;
+  border-radius: 0;
+}
+
+.login-input button:hover {
+  background-color: #98f8d5;
+  color: white;
+}
+
+
+/* form */
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.list_style {
+  padding-top: 10px;
+  margin-left: -32px;
+  list-style: none;
+}
+
+.register {
+  text-decoration : none;
+  color : #337ab7;
+  font-size: 1.1rem;
+}
+
+.register:hover{
+  color : #9DBDC6;
+}
+/* 
+
+.submit-login{
+  color: azure;
+  background-color: #98f8d5;
+} */
+
+/* Footer */
+#footer-page {
+  text-align: center;
+  background-color: #272F32;
+  color : white;
+  /* position: relative; */
+}
+
+.footer{
+  padding : 4% 6%;
+}
+
+.footer-link{
+  margin: 20px 10px;
+}
+
+.list_style {
+  padding-top: 10px;
+  margin-left: -32px;
+  list-style: none;
+}
+
+#footer-page a{
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+#footer-page a:hover{
+  color: #CDFCF6;
+}
+
+.copyright {
+  background-color: #0E0E10;
+}
+

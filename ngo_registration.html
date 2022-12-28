@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Ngo Registration</title>
+    <link rel="stylesheet" href="css/ngo_registration.css">
+    <!-- <script src="https://kit.fontawesome.com/dc4ff18580.js" crossorigin="anonymous"></script> -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/90ea645b5c.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>  
+
+
+  <section id="navbar">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg">
+
+
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.jpg" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+          Share A Meal</a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="mission">Our mission</a></li>
+                <li><a class="dropdown-item" href="contact">Contact Us</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="signup">Donor</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">NGO</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="signup">
+                <i class="fa-solid fa-user colour"></i>
+              </a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="index">
+                Home
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+    </div>
+    </nav>
+
+    </div>
+  </section>
+
+<section id="form-details" >
+  <div class="ngo" >
+   <h1>Create an Account</h1>
+   <div class="signup-box">
+       <div class ="left-box">
+        <form action="#">
+              <label for="ngo">Select state</label>
+              <select name="Select state" id="ngo">
+
+                <option value="ANDAMAN & NICOBAR ISLANDS">ANDAMAN & NICOBAR ISLANDS</option>
+                <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
+                <option value="ASSAM">ASSAM</option>
+                <option value="BIHAR">BIHAR</option>
+                <option value="CHANDIGARH">CHANDIGARH</option>
+                <option value="CHHATTISGARH">CHHATTISGARH</option>
+                <option value="DADRA & NAGAR HAVELI">DADRA & NAGAR HAVELI</option>
+                <option value="DAMAN & DIU ">DAMAN & DIU</option>
+                <option value="DELHI">DELHI</option>
+                <option value="GOA">GOA</option>
+                <option value="GUJARAT">GUJARAT</option>
+                <option value="HARYANA">HARYANA</option>
+                <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+                <option value="JAMMU & KASHMIR">JAMMU & KASHMIR</option>
+                <option value="JHARKHAND">JHARKHAND</option>
+                <option value="KARNATAKA">KARNATAKA</option>
+                <option value="KERALA">KERALA</option>
+                <option value="LADAKH">LADAKH</option>
+                <option value="LAKSHADWEEP">LAKSHADWEEP</option>
+                <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+                <option value="MAHARASHTRA">MAHARASHTRA</option>
+                <option value="MANIPUR">MANIPUR</option>
+                <option value="MEGHALAYA">MEGHALAYA</option>
+                <option value="MIZZORAM">MIZZORAM</option>
+                <option value="NAGALAND">NAGALAND</option>
+                <option value="ORISSA">ORISSA</option>
+                <option value="PUDUCHEERY">PUDUCHEERY</option>
+                <option value="PUNJAB">PUNJAB</option>
+                <option value="RAJASTHAN">RAJASTHAN</option>
+                <option value="SIKKIM">SIKKIM</option>
+                <option value="TAMIL NADU">TAMIL NADU</option>
+                <option value="TELANGANA">TELANGANA</option>
+                <option value="TRIPURA">TRIPURA</option>
+                <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                <option value="UTTARAKHAND">UTTARAKHAND</option>
+                <option value="WEST BENGAL">WEST BENGAL</option>
+              </select> 
+            </form>
+           <form>
+            <input type="text" placeholder="Enter city" required class="input-box">
+             <input type="text" placeholder="NGO organisation name" required class="input-box">
+             <input type="text" placeholder="NGO Username" required  class="input-box">
+             <input type="text" placeholder="NGO Email id" required  class="input-box">
+             <input type="text" placeholder="Telephone number/Mobile number" required  class="input-box">
+             <input type="password" placeholder=" Create Password" required class="input-box">
+             <input type="checkbox" id="terms">
+             <label for="terms">I accept the terms & conditions</label>
+             <button type="submit">SIGN UP<span>&#x27f6;</span></button>
+           </form>
+       </div>
+       
+       <p>I already have an account? <a href="#">Login Now</a></p>
+</div>       
+   </div>
+  </div>  
+</section>
+
+
+  <section id="footer-page">
+    <div class="footer">
+      <div class="row">
+        <div class="col-lg-3">
+          <h5>Make Others Aware</h5>
+          <a href="https://twitter.com/home" class="footer-link"><i class="fa-brands gap fa-twitter fa-2x"></i></a>
+          <a href="https://www.facebook.com/" class="footer-link"><i class="fa-brands gap fa-facebook fa-2x"></i></a>
+          <a href="https://www.instagram.com/03soham03/" class="footer-link"><i
+              class="fa-brands gap fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="col-lg-3">
+          <h5>Take Action</h5>
+          <ul class="list_style">
+            <li><a href="#">NGO</a></li>
+            <li><a href="signup">Donor</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>About us</h5>
+          <ul class="list_style">
+            <li><a href="mission">Our Mission</a></li>
+            <li><a href="contact">Contact us</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 style="position : relative"> Share A Meal Foundation</h5>
+          <!-- <ul class="list_style">
+            <li><i class="fa-solid fa-phone">  915685****</i></li>
+          </ul> -->
+          <ul class="elementor-icon-list-items" style="list-style : none; padding-top: 10px; margin-left: -32px;"
+            class="list_style">
+            <li class="elementor-icon-list-item">
+              <a href="tel:800-554-0619">
+
+                <span class="elementor-icon-list-icon">
+                  <i aria-hidden="true" class="fas fa-phone"></i> </span>
+                <span class="elementor-icon-list-text"> 800-554-0619</span>
+              </a>
+            </li>
+            <li class="elementor-icon-list-item">
+              <a href="#">
+
+                <span class="elementor-icon-list-icon">
+                  <i aria-hidden="true" class="fas fa-envelope"></i> </span>
+                <span class="elementor-icon-list-text"> ShareAMeal@foundation.org</span>
+              </a>
+            </li>
+            <!-- <li class="elementor-icon-list-item">
+              <span class="elementor-icon-list-icon">
+                <i aria-hidden="true" class="fas fa-map-marker-alt"></i> </span>
+              <span class="elementor-icon-list-text">PO Box 500778 <br></span>
+            </li>
+            <li class="elementor-icon-list-item">
+              <span class="elementor-icon-list-icon">
+                <i aria-hidden="true" class="fas fa-certificate"></i> </span>
+              <span class="elementor-icon-list-text">Nonprofit Tax Id: <br>#33-0492446</span>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>@Share A Meal</p>
+
+    </div>
+  </section>
+
+</body>
+</html>
